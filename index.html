@@ -1,65 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Facundo | Frontend Developer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
-      color: white;
-      text-align: center;
-    }
-    header {
-      padding: 80px 20px;
-    }
-    h1 {
-      font-size: 3rem;
-      margin-bottom: 10px;
-    }
-    section {
-      padding: 40px 20px;
-    }
-    .card {
-      background: #222;
-      margin: 20px auto;
-      padding: 20px;
-      max-width: 400px;
-      border-radius: 15px;
-      box-shadow: 0 10px 30px rgba(0,0,0,.5);
-    }
-    a {
-      color: #ff3c3c;
-      text-decoration: none;
-      font-weight: bold;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio | Desarrollador</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header>
-  <h1>Facundo Fauda</h1>
-  <p>Frontend Developer • React • JavaScript</p>
-</header>
+    <nav class="navbar">
+        <div class="logo">MiNombre<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
 
-<section>
-  <h2>🚀 Proyectos</h2>
+    <header id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Hola, soy <span class="highlight">Tu Nombre</span></h1>
+            <p>Desarrollador Frontend enfocado en crear experiencias digitales increíbles.</p>
+            <a href="#proyectos" class="btn">Ver mi trabajo</a>
+        </div>
+    </header>
 
-  <div class="card">
-    <h3>Tonnio Bikes</h3>
-    <p>Web moderna para taller de bicicletas</p>
-    <a href="#">Ver proyecto</a>
-  </div>
+    <section id="proyectos" class="projects">
+        <h2>Proyectos Destacados</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-img"></div>
+                <div class="project-info">
+                    <h3>Proyecto Uno</h3>
+                    <p>Descripción breve del proyecto realizado con componentes modulares.</p>
+                    <a href="#" class="more-link">Saber más →</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img"></div>
+                <div class="project-info">
+                    <h3>Proyecto Dos</h3>
+                    <p>Aplicación web construida con las mejores prácticas.</p>
+                    <a href="#" class="more-link">Saber más →</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-</section>
-
-<section>
-  <h2>📬 Contacto</h2>
-  <p>Email: facundo@email.com</p>
-  <p>GitHub: <a href="https://github.com/Facundo72">Facundo72</a></p>
-</section>
+    <footer id="contacto">
+        <h2>Hablemos</h2>
+        <p>¿Tienes un proyecto en mente? ¡Escríbeme!</p>
+        <div class="social-links">
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Email</a>
+        </div>
+        <p class="copy">&copy; 2026 - Creado con pasión</p>
+    </footer>
 
 </body>
 </html>
