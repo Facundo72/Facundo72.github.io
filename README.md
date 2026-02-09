@@ -12,7 +12,7 @@ Apasionado por crear experiencias web modernas y funcionales. Me especializo en 
 ### 🌟 Proyectos Destacados:
 - [🛒 Supermercado Online](https://web-demo-supermercado.vercel.app/) - Demo de e-commerce
 - [🎵 Catálogo Musical](https://mi-musica-ten.vercel.app/) - Portfolio musical
-- [🍞 Panificadora Artesanal](https://cascone-demo-web.vercel.app/) 
+- [🍞 Panificadora Artesanal](https://cascone-demo-web.vercel.app/) - panificadora
 
 ### 📫 Contacto:
 - 📧 Email: Facundofauda72@gmail.com
